@@ -1,1 +1,1 @@
-# DSA With JavaScript
+# DSA With JavaScript (B2)
