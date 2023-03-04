@@ -1,7 +1,7 @@
 /**
  * search through an array for a target value
- * @param {any[]} arr
- * @param {any} target
+ * @param {(number | string)[]} arr
+ * @param {number | string} target
  * @returns {number} index of target if found, otherwise -1
  */
 function linearSearch(arr, target) {
