@@ -1,0 +1,25 @@
+{
+  "name": "express101",
+  "version": "0.0.1",
+  "description": "Express 101",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --ignore 'src/db.json' .",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": "18.16.0"
+  }
+}
