@@ -1,0 +1,20 @@
+{
+  "name": "raffle-draw",
+  "version": "0.0.1",
+  "description": "Raffle Draw application.",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --ignore 'src/data/db.json' .",
+    "start": "node ."
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
