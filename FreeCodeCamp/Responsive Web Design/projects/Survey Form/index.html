@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Developer Experience Survey</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1 id="title">Developer Experience Survey</h1>
+        <p id="description">Thanks for helping us gather statistics for current developer experiences.</p>
+
+        <form action="#" id="survey-form">
+          <fieldset>
+            <legend>Personal Information</legend>
+
+            <div class="group">
+              <label id="name-label" for="name">Name</label>
+              <input type="text" id="name" placeholder="Your Name" required />
+            </div>
+
+            <div class="group">
+              <label id="email-label" for="email">Email</label>
+              <input type="email" id="email" placeholder="email@example.com" required />
+            </div>
+
+            <div class="group">
+              <label id="number-label" for="number">Age (optional)</label>
+              <input type="number" id="number" min="1" max="99" placeholder="22" />
+            </div>
+
+            <div class="group">
+              <input id="gender-male" name="gender" type="radio" value="male" checked />
+              <label class="gender-label" for="gender-male">Male</label>
+
+              <input id="gender-female" name="gender" type="radio" value="female" />
+              <label class="gender-label" for="gender-female">Female</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Developer Experience</legend>
+
+            <div class="group">
+              <label for="dropdown">Which option best describes your current role?</label>
+              <select name="select" id="dropdown" required>
+                <option value="">Select a role</option>
+                <option value="student">Student</option>
+                <option value="full-time-job">Full Time Job</option>
+                <option value="full-time-learner">Full Time Learner</option>
+                <option value="prefer-not-to-say">Prefer not to say</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="group">
+              <input id="lang-python" type="checkbox" name="favorite-language" value="python" />
+              <label class="lang-label" for="lang-python">Python</label>
+
+              <input id="lang-javascript" type="checkbox" name="favorite-language" value="javascript" />
+              <label class="lang-label" for="lang-javascript">JavaScript</label>
+
+              <input id="lang-other" type="checkbox" name="favorite-language" value="other" />
+              <label class="lang-label" for="lang-other">Other</label>
+            </div>
+
+            <div class="group">
+              <label for="message">Let us know more about your achievements as a developer.</label>
+              <textarea name="message" id="message" placeholder="Tell us something epic..."></textarea>
+            </div>
+          </fieldset>
+
+          <button id="submit" type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

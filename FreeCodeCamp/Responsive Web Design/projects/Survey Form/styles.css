@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background: #111;
+  color: #eee;
+
+  font-family: sans-serif;
+}
+
+.container {
+  min-width: 300px;
+  max-width: 600px;
+  width: 90%;
+
+  margin: auto;
+  padding: 1rem;
+  margin-top: 100px;
+
+  background: #333;
+}
+
+#title,
+#description {
+  text-align: center;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+fieldset {
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+legend {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 1rem;
+}
+
+input,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 2px;
+  font-size: 16px;
+}
+
+label {
+  margin-bottom: 0.4rem;
+  display: block;
+  font-size: 18px;
+}
+
+.group {
+  margin-bottom: 1rem;
+}
+
+.group:last-of-type {
+  margin-bottom: 0;
+}
+
+.gender-label,
+.lang-label {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+input[name="gender"],
+input[name="favorite-language"] {
+  display: inline-block;
+  width: unset;
+  vertical-align: center;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 140px;
+  font-family: sans-serif;
+}
+
+button {
+  font-size: 18px;
+  padding: 4px 8px;
+}
