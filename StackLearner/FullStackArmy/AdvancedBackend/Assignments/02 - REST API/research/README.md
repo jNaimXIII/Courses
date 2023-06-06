@@ -24,6 +24,7 @@
 
 - Guild Wars 2
   - Accepts authentication token through query parameters.
+  - Provides IDs of resources instead of being HATEOAS compliant.
 - Jikan
   - Used singular nouns for resource endpoints.
     - `/anime` instead of `/animes`.
