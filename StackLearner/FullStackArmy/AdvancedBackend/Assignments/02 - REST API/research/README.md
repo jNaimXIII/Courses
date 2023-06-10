@@ -7,7 +7,7 @@
 ## Common Concepts
 
 - Versioning done using `{BASE_URL}/v{version_number}`.
-- Consistend response object.
+- Consistent response object.
 - Authentication done via tokens.
 - Authorization key is provided through headers.
 - Rate limited.
